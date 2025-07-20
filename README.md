@@ -44,6 +44,13 @@ badge-gen owner/repository
     ```
     badge-gen owner/repository --badges build license
     ```
+Correct Usage Example
+Display all badges except version:
+
+python badge_gen.py rustdesk/rustdesk --badges build coverage license last_commit
+
+Display version badge only if you have the PyPI package name:
+python badge_gen.py rustdesk/rustdesk --package rustdesk
 
 ---
 
